@@ -11,7 +11,7 @@ The easiest Neovim color picker in the world. `easycolor.nvim` brings the classi
 Using `lazy.nvim`:
 ```lua
 {
-    "neph-iap/easycolor.nvim",
+    "vi013t/easycolor.nvim",
     dependencies = { "stevearc/dressing.nvim" } -- Optional, but provides better UI for editing the formatting template
     opts = {},
     keys = { { "<leader>b", "<cmd>EasyColor<cr>", desc = "Color Picker" } }
